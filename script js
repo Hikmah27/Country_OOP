@@ -1,0 +1,297 @@
+ class Country {
+      constructor(image, name, flag, cap, popu, conti, fact, learn) {
+        this.image = image;
+        this.name = name;
+        this.flag = flag;
+        this.capital = cap;
+        this.population = popu;
+        this.continent = conti;
+        this.funFact = fact;
+        this.learn = learn;
+      }
+      details() {
+        show.innerHTML = `
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                 <img src="${this.image}" class="img-fluid"/>
+                 <a href="#!">
+                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                 </a>
+              </div>
+              <div class="card-body">
+               <h1  class="card-title fw-bolder">${this.name}<span><img src= ${this.flag} class="img-fluid" width="45"></span></h1>
+                <p class="card-text">The capital of ${this.name} is <span class = "fw-bolder"> ${this.capital}.</span></p>
+                <p class="card-text">The population of ${this.name} is <span class = "fw-bolder"> ${this.population}</p>
+                <p class="card-text">${this.name} is in Continent of <span class = "fw-bolder"> ${this.continent}.</p>
+                <p class="card-text">Fun Fact about ${this.name} is ${this.funFact}.</p>
+                <a href="${this.learn}" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+        `;
+      }
+    }
+
+    let countryOne = new Country(
+      "images/Nigeria img.jpg",
+      "Nigeria",
+      "images/Nigeria.jpg",
+      "Abuja",
+      "213.4 million",
+      "Africa",
+      "Over 500 indigenous languages are spoken",
+      "https://en.wikipedia.org/wiki/Nigeria"
+    );
+    let countryTwo = new Country(
+      "images/Kenya img.jpg",
+      "Kenya",
+      "images/Kenya.jpg",
+      "Nairobi",
+      "54,027,487",
+      "Africa",
+      "it has the best distance runners",
+      "https://en.wikipedia.org/wiki/Kenya"
+    );
+    let countryThree = new Country(
+      "images/SaudiArabia img.jpg",
+      "Saudi Arabia",
+      "images/SaudiArabia.jpg",
+      "Riyadh",
+      "36,455,007",
+      "Asia",
+      "it is the home of two biggest mosques in the world",
+      "https://en.wikipedia.org/wiki/Saudi_Arabia"
+    );
+    let countryFour = new Country(
+      "images/Canada img.jpg",
+      "Canada",
+      "images/Canada.jpg",
+      "Ottawa",
+      "39,858,480",
+      "North America",
+      "it is the most educated country in the world",
+      "https://en.wikipedia.org/wiki/Canada"
+    );
+    let countryFive = new Country(
+      "images/India img.jpg",
+      "India",
+      "images/India.jpg",
+      "New Delhi",
+      "1,428,627,663",
+      "South Asia",
+      "cows are sacred in India",
+      "https://en.wikipedia.org/wiki/India"
+    );
+    let countrySix = new Country(
+      "images/Iraq img.jpg",
+      "Iraq",
+      "images/Iraq.jpg",
+      "Baghdad",
+      "22.07,000,000",
+      "Asia",
+      "it is home to the world's oldest civilization",
+      "https://en.wikipedia.org/wiki/Iraq"
+
+    );
+    let countrySeven = new Country(
+      "images/USA Img.jpg",
+      "USA",
+      "images/USA.jpg",
+      "Washington",
+      "339,996,563",
+      "North America",
+      "it has the largest economy in the world",
+      "https://en.wikipedia.org/wiki/United_States"
+    );
+    let countryEight = new Country(
+      "images/UK img.jpg",
+      "UK",
+      "images/UK.jpg",
+      "London",
+      "67,736,802",
+      "Europe",
+      "the English might have invented champagne",
+      "https://en.wikipedia.org/wiki/United_Kingdom"
+    );
+    let countryNine = new Country(
+      "images/Australia Img.jpg",
+      "Australia",
+      "images/Australia.jpg",
+      "Canberra",
+      "26,439,111",
+      "Oceania",
+      "Australia is a continent and country",
+      "https://en.wikipedia.org/wiki/Australia"
+
+    );
+    let countryTen = new Country(
+      "images/Austria Img.jpg",
+      "Austria",
+      "images/Austria.jpg",
+      "Vienna",
+      "8,958,960",
+      "Europe",
+      "the highest water fall in Europe is located in Austria",
+      "https://en.wikipedia.org/wiki/Austria"
+    );
+    let countryEleven = new Country(
+      "images/China Img.jpg",
+      "China",
+      "images/China.jpg",
+      "Beijing",
+      "1,425,671,352",
+      "East Asia",
+      "the Yangtze River is the biggest river in Asia",
+      "https://en.wikipedia.org/wiki/China"
+    );
+    let countryTwelve = new Country(
+      "images/Egypt Img.jpg",
+      "Egypt",
+      "images/Egypt.jpg",
+      "Cairo",
+      "112,716,598",
+      "Northeast Africa and Asia",
+      "Egyptian women had a wide range of rights and freedoms",
+      "https://en.wikipedia.org/wiki/Egypt"
+    );
+    let countryThirteen = new Country(
+      "images/Ghana Img.jpg",
+      "Ghana",
+      "images/Ghana.jpg",
+      "Accra",
+      "34,121,985",
+      "Africa",
+      "Ghana is the second largest producer of gold in Africa",
+      "https://en.wikipedia.org/wiki/Ghana"
+    );
+    let countryFourteen = new Country(
+      "images/Qatar Img.jpg",
+      "Qatar",
+      "images/Qatar.jpg",
+      "Doha",
+      "2,716,391",
+      "Asia",
+      "Qatar is the safest country in the world",
+      "https://en.wikipedia.org/wiki/Qatar"
+    );
+    let countryFifteen = new Country(
+      "images/Kuwait Img.jpg",
+      "Kuwait",
+      "images/Kuwait.jpg",
+      "Kuwait City",
+      "4.29,000,000",
+      "Asia",
+      "Kuwait is the first gulf nation to have a constitution and parliament",
+      "https://en.wikipedia.org/wiki/Kuwait"
+    );
+    let countrySixteen = new Country(
+      "images/Dubai img.jpg",
+      "Dubai",
+      "images/Dubai.jpg",
+      "Dubai City",
+      "3.60,000,000",
+      "Asia",
+      "20 years ago, Dubai was a desert",
+      "https://en.wikipedia.org/wiki/Dubai"
+    );
+    let countrySeventeen = new Country(
+      "images/Japan Img.jpg",
+      "Japan",
+      "images/Japan.jpg",
+      "Tokyo",
+      "123,294,513",
+      "Asia",
+      "Japan is extremely clean",
+      "https://en.wikipedia.org/wiki/Japan"
+    );
+    let countryEighteen = new Country(
+      "images/Singapore Img.jpg",
+      "Singapore",
+      "images/Singapore.jpg",
+      "Singapore",
+      "6,177,793",
+      "Asia",
+      "it is a city of not just one island,but 64",
+      "https://en.wikipedia.org/wiki/Singapore"
+    );
+    let countryNineteen = new Country(
+      "images/Russia Img.jpg",
+      "Russia",
+      "images/Russia.jpg",
+      "Moscow",
+      "144,444,359",
+      "Europe",
+      "Russia has more billionaire per capita than anywhere else in the world",
+      "https://en.wikipedia.org/wiki/Russia"
+    );
+    let countryTwenty = new Country(
+      "images/Spain Img.jpg",
+      "Spain",
+      "images/Spain.jpg",
+      "Madrid",
+      "images/Spain.jpg",
+      "47.54,000,000",
+      "Europe",
+      "it has a National anthem with no words",
+      "https://en.wikipedia.org/wiki/Spain"
+    );
+
+    const nigeria = () => {
+      countryOne.details();
+    };
+    const kenya = () => {
+      countryTwo.details();
+    };
+    const saudiArabia = () => {
+      countryThree.details();
+    };
+    const canada = () => {
+      countryFour.details();
+    };
+    const india = () => {
+        countryFive.details();
+    };
+    const iraq = () => {
+        countrySix.details();
+    };
+    const usa = () => {
+        countrySeven.details();
+    };
+    const uk = () => {
+        countryEight.details();
+    };
+    const australia = () => {
+        countryNine.details();
+    };
+    const austria = () => {
+        countryTen.details();
+    };
+    const china = () => {
+        countryEleven.details();
+    };
+    const egypt = () => {
+        countryTwelve.details();
+    };
+    const ghana = () => {
+        countryThirteen.details();
+    };
+    const qatar = () => {
+        countryFourteen.details();
+    };
+    const kuwait = () => {
+        countryFifteen.details();
+    };
+    const dubai = () => {
+      countrySixteen.details();
+    };
+    const japan = () => {
+        countrySeventeen.details();
+    };
+    const singapore = () => {
+        countryEighteen.details();
+    };
+    const russia = () => {
+        countryNineteen.details();
+    };
+    const spain = () => {
+        countryTwenty.details();
+    };
