@@ -1,4 +1,4 @@
- class Country {
+class Country {
       constructor(image, name, flag, cap, popu, conti, fact, learn) {
         this.image = image;
         this.name = name;
@@ -19,7 +19,7 @@
                  </a>
               </div>
               <div class="card-body">
-               <h1  class="card-title fw-bolder">${this.name}<span><img src= ${this.flag} class="img-fluid" width="45"></span></h1>
+               <h1  class="card-title fw-bolder">${this.name}<span><img src= "${this.flag}" class="img-fluid" width="45"></span></h1>
                 <p class="card-text">The capital of ${this.name} is <span class = "fw-bolder"> ${this.capital}.</span></p>
                 <p class="card-text">The population of ${this.name} is <span class = "fw-bolder"> ${this.population}</p>
                 <p class="card-text">${this.name} is in Continent of <span class = "fw-bolder"> ${this.continent}.</p>
@@ -32,9 +32,9 @@
     }
 
     let countryOne = new Country(
-      "images/Nigeria img.jpg",
+      'Images/Nigeriaimg.jpg',
       "Nigeria",
-      "images/Nigeria.jpg",
+      'Images/Nigeria.jpg',
       "Abuja",
       "213.4 million",
       "Africa",
@@ -42,9 +42,9 @@
       "https://en.wikipedia.org/wiki/Nigeria"
     );
     let countryTwo = new Country(
-      "images/Kenya img.jpg",
+      'Images/Kenyaimg.jpg',
       "Kenya",
-      "images/Kenya.jpg",
+      'Images/Kenya.jpg',
       "Nairobi",
       "54,027,487",
       "Africa",
@@ -52,9 +52,9 @@
       "https://en.wikipedia.org/wiki/Kenya"
     );
     let countryThree = new Country(
-      "images/SaudiArabia img.jpg",
+      "images/Saudiimg.jpg",
       "Saudi Arabia",
-      "images/SaudiArabia.jpg",
+      "images/Saudi.jpg",
       "Riyadh",
       "36,455,007",
       "Asia",
@@ -62,7 +62,7 @@
       "https://en.wikipedia.org/wiki/Saudi_Arabia"
     );
     let countryFour = new Country(
-      "images/Canada img.jpg",
+      "images/Canadaimg.jpg",
       "Canada",
       "images/Canada.jpg",
       "Ottawa",
@@ -72,7 +72,7 @@
       "https://en.wikipedia.org/wiki/Canada"
     );
     let countryFive = new Country(
-      "images/India img.jpg",
+      "images/Indiaimg.jpg",
       "India",
       "images/India.jpg",
       "New Delhi",
@@ -82,7 +82,7 @@
       "https://en.wikipedia.org/wiki/India"
     );
     let countrySix = new Country(
-      "images/Iraq img.jpg",
+      "images/Iraqimg.jpg",
       "Iraq",
       "images/Iraq.jpg",
       "Baghdad",
@@ -93,7 +93,7 @@
 
     );
     let countrySeven = new Country(
-      "images/USA Img.jpg",
+      "images/USAimg.jpg",
       "USA",
       "images/USA.jpg",
       "Washington",
@@ -103,7 +103,7 @@
       "https://en.wikipedia.org/wiki/United_States"
     );
     let countryEight = new Country(
-      "images/UK img.jpg",
+      "images/UKimg.jpg",
       "UK",
       "images/UK.jpg",
       "London",
@@ -113,7 +113,7 @@
       "https://en.wikipedia.org/wiki/United_Kingdom"
     );
     let countryNine = new Country(
-      "images/Australia Img.jpg",
+      "images/Australiaimg.jpg",
       "Australia",
       "images/Australia.jpg",
       "Canberra",
@@ -124,7 +124,7 @@
 
     );
     let countryTen = new Country(
-      "images/Austria Img.jpg",
+      "images/Austriaimg.jpg",
       "Austria",
       "images/Austria.jpg",
       "Vienna",
@@ -134,7 +134,7 @@
       "https://en.wikipedia.org/wiki/Austria"
     );
     let countryEleven = new Country(
-      "images/China Img.jpg",
+      "images/Chinaimg.jpg",
       "China",
       "images/China.jpg",
       "Beijing",
@@ -144,7 +144,7 @@
       "https://en.wikipedia.org/wiki/China"
     );
     let countryTwelve = new Country(
-      "images/Egypt Img.jpg",
+      "images/Egyptimg.jpg",
       "Egypt",
       "images/Egypt.jpg",
       "Cairo",
@@ -154,37 +154,37 @@
       "https://en.wikipedia.org/wiki/Egypt"
     );
     let countryThirteen = new Country(
-      "images/Ghana Img.jpg",
+      "images/Ghanaimg.jpg",
       "Ghana",
       "images/Ghana.jpg",
       "Accra",
       "34,121,985",
       "Africa",
-      "Ghana is the second largest producer of gold in Africa",
+      "it is the second largest producer of gold in Africa",
       "https://en.wikipedia.org/wiki/Ghana"
     );
     let countryFourteen = new Country(
-      "images/Qatar Img.jpg",
+      "images/Qatarimg.jpg",
       "Qatar",
       "images/Qatar.jpg",
       "Doha",
       "2,716,391",
       "Asia",
-      "Qatar is the safest country in the world",
+      "it is the safest country in the world",
       "https://en.wikipedia.org/wiki/Qatar"
     );
     let countryFifteen = new Country(
-      "images/Kuwait Img.jpg",
+      "images/Kuwaitimg.jpg",
       "Kuwait",
       "images/Kuwait.jpg",
       "Kuwait City",
       "4.29,000,000",
       "Asia",
-      "Kuwait is the first gulf nation to have a constitution and parliament",
+      "it is the first gulf nation to have a constitution and parliament",
       "https://en.wikipedia.org/wiki/Kuwait"
     );
     let countrySixteen = new Country(
-      "images/Dubai img.jpg",
+      "images/Dubaiimg.jpg",
       "Dubai",
       "images/Dubai.jpg",
       "Dubai City",
@@ -194,17 +194,17 @@
       "https://en.wikipedia.org/wiki/Dubai"
     );
     let countrySeventeen = new Country(
-      "images/Japan Img.jpg",
+      "images/Japanimg.jpg",
       "Japan",
       "images/Japan.jpg",
       "Tokyo",
       "123,294,513",
       "Asia",
-      "Japan is extremely clean",
+      "it is extremely clean and it has many active volcanoes.",
       "https://en.wikipedia.org/wiki/Japan"
     );
     let countryEighteen = new Country(
-      "images/Singapore Img.jpg",
+      "images/Singaporeimg.jpg",
       "Singapore",
       "images/Singapore.jpg",
       "Singapore",
@@ -214,23 +214,22 @@
       "https://en.wikipedia.org/wiki/Singapore"
     );
     let countryNineteen = new Country(
-      "images/Russia Img.jpg",
+      "images/Russiaimg.jpg",
       "Russia",
       "images/Russia.jpg",
       "Moscow",
       "144,444,359",
       "Europe",
-      "Russia has more billionaire per capita than anywhere else in the world",
+      "it has more billionaire per capita than anywhere else in the world",
       "https://en.wikipedia.org/wiki/Russia"
     );
     let countryTwenty = new Country(
-      "images/Spain Img.jpg",
+      "images/Spainimg.jpg",
       "Spain",
       "images/Spain.jpg",
       "Madrid",
-      "images/Spain.jpg",
       "47.54,000,000",
-      "Europe",
+      "SouthWestern Europe",
       "it has a National anthem with no words",
       "https://en.wikipedia.org/wiki/Spain"
     );
