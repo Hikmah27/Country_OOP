@@ -52,9 +52,9 @@ class Country {
       "https://en.wikipedia.org/wiki/Kenya"
     );
     let countryThree = new Country(
-      "./images/Saudiimg.jpg",
+      "./Images/Saudiimg.jpg",
       "Saudi Arabia",
-      "./images/Saudi.jpg",
+      "./Images/Saudi.jpg",
       "Riyadh",
       "36,455,007",
       "Asia",
@@ -62,9 +62,9 @@ class Country {
       "https://en.wikipedia.org/wiki/Saudi_Arabia"
     );
     let countryFour = new Country(
-      "./images/Canadaimg.jpg",
+      "./Images/Canadaimg.jpg",
       "Canada",
-      "./images/Canada.jpg",
+      "./Images/Canada.jpg",
       "Ottawa",
       "39,858,480",
       "North America",
@@ -72,9 +72,9 @@ class Country {
       "https://en.wikipedia.org/wiki/Canada"
     );
     let countryFive = new Country(
-      "./images/Indiaimg.jpg",
+      "./Images/Indiaimg.jpg",
       "India",
-      "./images/India.jpg",
+      "./Images/India.jpg",
       "New Delhi",
       "1,428,627,663",
       "South Asia",
@@ -82,9 +82,9 @@ class Country {
       "https://en.wikipedia.org/wiki/India"
     );
     let countrySix = new Country(
-      "./images/Iraqimg.jpg",
+      "./Images/Iraqimg.jpg",
       "Iraq",
-      "./images/Iraq.jpg",
+      "./Images/Iraq.jpg",
       "Baghdad",
       "22.07,000,000",
       "Asia",
@@ -93,9 +93,9 @@ class Country {
 
     );
     let countrySeven = new Country(
-      "./images/USAimg.jpg",
+      "./Images/USAimg.jpg",
       "USA",
-      "./images/USA.jpg",
+      "./Images/USA.jpg",
       "Washington",
       "339,996,563",
       "North America",
@@ -103,9 +103,9 @@ class Country {
       "https://en.wikipedia.org/wiki/United_States"
     );
     let countryEight = new Country(
-      "./images/UKimg.jpg",
+      "./Images/UKimg.jpg",
       "UK",
-      "./images/UK.jpg",
+      "./Images/UK.jpg",
       "London",
       "67,736,802",
       "Europe",
@@ -113,9 +113,9 @@ class Country {
       "https://en.wikipedia.org/wiki/United_Kingdom"
     );
     let countryNine = new Country(
-      "./images/Australiaimg.jpg",
+      "./Images/Australiaimg.jpg",
       "Australia",
-      "./images/Australia.jpg",
+      "./Images/Australia.jpg",
       "Canberra",
       "26,439,111",
       "Oceania",
@@ -124,9 +124,9 @@ class Country {
 
     );
     let countryTen = new Country(
-      "./images/Austriaimg.jpg",
+      "./Images/Austriaimg.jpg",
       "Austria",
-      "./images/Austria.jpg",
+      "./Images/Austria.jpg",
       "Vienna",
       "8,958,960",
       "Europe",
@@ -134,9 +134,9 @@ class Country {
       "https://en.wikipedia.org/wiki/Austria"
     );
     let countryEleven = new Country(
-      "./images/Chinaimg.jpg",
+      "./Images/Chinaimg.jpg",
       "China",
-      "./images/China.jpg",
+      "./Images/China.jpg",
       "Beijing",
       "1,425,671,352",
       "East Asia",
@@ -144,9 +144,9 @@ class Country {
       "https://en.wikipedia.org/wiki/China"
     );
     let countryTwelve = new Country(
-      "./images/Egyptimg.jpg",
+      "./Images/Egyptimg.jpg",
       "Egypt",
-      "./images/Egypt.jpg",
+      "./Images/Egypt.jpg",
       "Cairo",
       "112,716,598",
       "Northeast Africa and Asia",
@@ -154,9 +154,9 @@ class Country {
       "https://en.wikipedia.org/wiki/Egypt"
     );
     let countryThirteen = new Country(
-      "./images/Ghanaimg.jpg",
+      "./Images/Ghanaimg.jpg",
       "Ghana",
-      "./images/Ghana.jpg",
+      "./Images/Ghana.jpg",
       "Accra",
       "34,121,985",
       "Africa",
@@ -164,9 +164,9 @@ class Country {
       "https://en.wikipedia.org/wiki/Ghana"
     );
     let countryFourteen = new Country(
-      "./images/Qatarimg.jpg",
+      "./Images/Qatarimg.jpg",
       "Qatar",
-      "./images/Qatar.jpg",
+      "./Images/Qatar.jpg",
       "Doha",
       "2,716,391",
       "Asia",
@@ -174,9 +174,9 @@ class Country {
       "https://en.wikipedia.org/wiki/Qatar"
     );
     let countryFifteen = new Country(
-      "./images/Kuwaitimg.jpg",
+      "./Images/Kuwaitimg.jpg",
       "Kuwait",
-      "./images/Kuwait.jpg",
+      "./Images/Kuwait.jpg",
       "Kuwait City",
       "4.29,000,000",
       "Asia",
@@ -184,9 +184,9 @@ class Country {
       "https://en.wikipedia.org/wiki/Kuwait"
     );
     let countrySixteen = new Country(
-      "./images/Dubaiimg.jpg",
+      "./Images/Dubaiimg.jpg",
       "Dubai",
-      "./images/Dubai.jpg",
+      "./Images/Dubai.jpg",
       "Dubai City",
       "3.60,000,000",
       "Asia",
@@ -194,9 +194,9 @@ class Country {
       "https://en.wikipedia.org/wiki/Dubai"
     );
     let countrySeventeen = new Country(
-      "./images/Japanimg.jpg",
+      "./Images/Japanimg.jpg",
       "Japan",
-      "./images/Japan.jpg",
+      "./Images/Japan.jpg",
       "Tokyo",
       "123,294,513",
       "Asia",
@@ -204,9 +204,9 @@ class Country {
       "https://en.wikipedia.org/wiki/Japan"
     );
     let countryEighteen = new Country(
-      "./images/Singaporeimg.jpg",
+      "./Images/Singaporeimg.jpg",
       "Singapore",
-      "./images/Singapore.jpg",
+      "./Images/Singapore.jpg",
       "Singapore",
       "6,177,793",
       "Asia",
@@ -214,9 +214,9 @@ class Country {
       "https://en.wikipedia.org/wiki/Singapore"
     );
     let countryNineteen = new Country(
-      "./images/Russiaimg.jpg",
+      "./Images/Russiaimg.jpg",
       "Russia",
-      "images/Russia.jpg",
+      "Images/Russia.jpg",
       "Moscow",
       "144,444,359",
       "Europe",
@@ -224,9 +224,9 @@ class Country {
       "https://en.wikipedia.org/wiki/Russia"
     );
     let countryTwenty = new Country(
-      "./images/Spainimg.jpg",
+      "./Images/Spainimg.jpg",
       "Spain",
-      "images/Spain.jpg",
+      "Images/Spain.jpg",
       "Madrid",
       "47.54,000,000",
       "SouthWestern Europe",
